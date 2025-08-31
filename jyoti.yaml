@@ -1,0 +1,6 @@
+Host:all
+gather_fact= No
+become= true
+task 1
+  name: create file
+    touch filename.1
